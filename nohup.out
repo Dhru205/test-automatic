@@ -10,3 +10,14 @@ Use --update-env to update environment variables
 │ 0  │ my-app    │ default     │ 1.0.0   │ fork    │ 13766    │ 0s     │ 4    │ online    │ 0%       │ 25.9mb   │ dhru     │ disabled │
 └────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
 
+New push event detected. Pulling latest changes...
+stdout: Already up to date.
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [my-app](ids: [ 0 ])
+[PM2] [my-app](0) ✓
+┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼───────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ my-app    │ default     │ 1.0.0   │ fork    │ 13957    │ 0s     │ 5    │ online    │ 0%       │ 23.6mb   │ dhru     │ disabled │
+└────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+
